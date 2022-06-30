@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbarList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 15px 70px;
+}
+
+.navbarItem {
+  margin-right: 80px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.navbarItem a:hover {
+  color: #5432e7;
+}
+
+.navbarLogo {
+  width: 200px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+.home {
+  min-height: calc(100vh - 80px);
+  position: relative;
+  background-image: url("../assets//images/home.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: right;
+  margin: 10px 20px;
+}
+
+.homeContainer {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  max-width: 30%;
+}
+.homeLogo {
+  border-bottom: 2px solid grey;
+  padding-bottom: 10px;
+  width: 175px;
+}
+
+.homeTitle,
+.homeSubtitle {
+  color: #5432e7;
+}
+
+.homeTitle {
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.homeSubtitle {
+  font-size: 60px;
+  line-height: 1.2;
+}
+
+.homeDescription {
+  font-size: 14px;
+}
+
+.loginContainer {
+  max-width: 1110px;
+  margin: auto;
+  padding-top: 60px;
+  display: flex;
+}
+.loginTitle {
+  font-size: 60px;
+  color: #5432e7;
+}
+
+.loginSubtitle {
+  color: grey;
+}
+
+.loginForm {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.loginFormInputContainer {
+  position: relative;
+}
+.loginFormInput {
+  border-radius: 30px;
+  outline: none;
+  border: 2px solid grey;
+  padding: 10px;
+  width: 300px;
+  margin-top: 20px;
+}
+.inputIcon {
+  position: absolute;
+  right: 10px;
+  top:28px;
+  z-index: 1000;
+}
+.loginLeftSide {
+  width: 50%;
+}
+
+.loginRightSide {
+  height: 500px;
+  width: 500px;
+  background-color: grey;
+  margin-left: 20px;
+}
+
+.loginFormCheckboxContainer {
+  padding-top: 20px;
+}
+.loginFormCheckbox{
+  cursor: pointer;
+}
+
+.loginFormButton {
+  background: linear-gradient(
+    90deg,
+    rgba(57, 0, 143, 1) 0%,
+    rgba(82, 29, 224, 1) 100%
+  );
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  width: 50px;
+}
+.buttonIcon{
+  color:white;
+  cursor: pointer;
+}
